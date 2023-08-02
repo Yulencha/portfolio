@@ -18,7 +18,7 @@ const Footer = () => {
             <li className="footer__title">Навигация</li>
             <li className="footer__nav-item">
               <NavLink
-                to="/"
+                to="./portfolio"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
