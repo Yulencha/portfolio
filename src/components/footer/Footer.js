@@ -28,7 +28,7 @@ const Footer = () => {
             </li>
             <li className="footer__nav-item">
               <NavLink
-                to="./projects"
+                to="./portfolio/projects"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
@@ -38,7 +38,7 @@ const Footer = () => {
             </li>
             <li className="footer__nav-item">
               <NavLink
-                to="./contacts"
+                to="./portfolio/contacts"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }

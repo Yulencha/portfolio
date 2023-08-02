@@ -1,6 +1,6 @@
 @import "./reset.css";
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
 
 :root {
   /* Colors */
@@ -68,7 +68,7 @@ html,
 body {
   min-height: 100vh;
 
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
   letter-spacing: -0.5px;
 
   /* Light mode */
@@ -95,7 +95,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1024px;
+  max-width: 1200px;
 }
 
 .none {
