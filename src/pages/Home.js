@@ -16,7 +16,7 @@ const Home = () => {
           <a
             className="btn"
             target="_blank"
-            href="https://hh.ru/applicant/resumes/view?resume=6c193bf2ff0259322f0039ed1f743163763767"
+            href="https://hh.ru/applicant/resumes/view?resume=6293f99fff0c3def870039ed1f6d72754d415a"
           >
             Резюме hh.ru
           </a>
