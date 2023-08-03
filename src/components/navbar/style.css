@@ -2,8 +2,6 @@
 
 .nav {
   padding: 20px 0;
-  /* background-color: var(--nav-bg);
-  border-bottom: 1px solid var(--nav-border); */
   color: var(--nav-text);
   letter-spacing: normal;
   margin-top: 32px;
@@ -49,11 +47,11 @@
   opacity: 0.8;
 }
 
-.nav-list__link--active {
+.nav-list__link.active {
   position: relative;
 }
 
-.nav-list__link--active::before {
+.nav-list__link.active::before {
   content: "";
 
   position: absolute;
@@ -73,4 +71,15 @@
 }
 .social__item a svg {
   fill: var(--nav-icon);
+}
+
+@media (max-width: 620px) {
+  .nav-list {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .social {
+    width: 100%;
+    justify-content: center;
+  }
 }

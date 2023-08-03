@@ -1,15 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
-import telegram from "./../../img/icons/telegram.svg";
-import instagram from "./../../img/icons/instagram.svg";
-import twitter from "./../../img/icons/twitter.svg";
-import gitHub from "./../../img/icons/gitHub.svg";
-import linkedIn from "./../../img/icons/linkedIn.svg";
 
 const Footer = () => {
-  const activeLink = "footer__link footer__link--active";
-  const normalLink = "footer__link";
   return (
     <footer className="footer">
       <div className="container">
@@ -17,32 +10,17 @@ const Footer = () => {
           <ul className="footer__nav footer__col">
             <li className="footer__title">Навигация</li>
             <li className="footer__nav-item">
-              <NavLink
-                to="./portfolio"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
-              >
+              <NavLink to="./" className="footer__link">
                 Главная
               </NavLink>
             </li>
             <li className="footer__nav-item">
-              <NavLink
-                to="./portfolio/projects"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
-              >
+              <NavLink to="./projects" className="footer__link">
                 Проекты
               </NavLink>
             </li>
             <li className="footer__nav-item">
-              <NavLink
-                to="./portfolio/contacts"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
-              >
+              <NavLink to="./contacts" className="footer__link">
                 Контакты
               </NavLink>
             </li>

@@ -15,10 +15,10 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Routes>
-        <Route path="/portfolio" element={<Home />} />
-        <Route path="/portfolio/projects" element={<Projects />} />
-        <Route path="/portfolio/project/:id" element={<Project />} />
-        <Route path="/portfolio/contacts" element={<Contacts />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/project/:id" element={<Project />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
       <Footer />
     </div>

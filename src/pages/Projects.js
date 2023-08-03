@@ -15,6 +15,7 @@ const Projects = () => {
                 title={project.title}
                 img={project.img}
                 index={index}
+                skills={project.skills}
               />
             );
           })}

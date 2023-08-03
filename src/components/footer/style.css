@@ -1,11 +1,8 @@
 /* Footer */
 
 .footer {
-  margin-top: 32px;
-  padding: 42px 0;
-
-  /* background: var(--nav-bg);
-  backdrop-filter: blur(2px); */
+  margin-top: auto;
+  padding: 72px 0 42px;
 }
 
 .footer__wrapper {
@@ -31,10 +28,10 @@
   line-height: normal;
 }
 
-.footer__link--active {
+.footer__link.active {
   position: relative;
 }
-.footer__link--active::before {
+.footer__link.active::before {
   content: "";
 
   position: absolute;
@@ -54,4 +51,15 @@
   font-weight: 700;
   line-height: normal;
   margin-bottom: 32px;
+}
+
+@media (max-width: 620px) {
+  .footer {
+    padding: 42px 0;
+  }
+
+  .footer__wrapper {
+    row-gap: 20px;
+    justify-content: center;
+  }
 }

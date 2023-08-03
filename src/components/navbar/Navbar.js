@@ -2,9 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
-// import gitHub from "./../../img/icons/gitHub.svg";
-// import linkedIn from "./../../img/icons/linkedIn.svg";
-// import telegram from "./../../img/icons/telegram.svg";
 
 const Navbar = () => {
   const activeLink = "nav-list__link nav-list__link--active";
@@ -15,32 +12,17 @@ const Navbar = () => {
         <div className="nav-row">
           <ul className="nav-list">
             <li className="nav-list__item">
-              <NavLink
-                to="./portfolio"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
-              >
+              <NavLink to="./" className="nav-list__link">
                 Главная
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink
-                to="./portfolio/projects"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
-              >
+              <NavLink to="./projects" className="nav-list__link">
                 Проекты
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink
-                to="./portfolio/contacts"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
-              >
+              <NavLink to="./contacts" className="nav-list__link">
                 Контакты
               </NavLink>
             </li>

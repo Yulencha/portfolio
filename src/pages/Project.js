@@ -21,7 +21,10 @@ const Project = () => {
           </a>
 
           <div className="project-details__desc">
-            <p>{project.skills}</p>
+            <p>Описание: &emsp;&ensp;{project.description}</p>
+          </div>
+          <div className="project-details__desc">
+            <p>Технологии:&emsp;{project.skills}</p>
           </div>
 
           {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
