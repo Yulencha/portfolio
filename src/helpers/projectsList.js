@@ -18,6 +18,27 @@ import project06Big from "./../img/projects/06-big.png";
 
 const projects = [
   {
+    title: "Агрегатор ресторанов",
+    img: project03,
+    imgBig: project03Big,
+    skills:
+      "React, React Hooks, фильтрация по поисковому запросу, Bootstrap, Flexbox, pixel perfect, адаптивная верстка по макету из Figma",
+    link: "https://yulencha.github.io/UberEats_react/",
+    gitHubLink: "https://github.com/Yulencha/UberEats_react",
+    description:
+      "Учебный проект курса 'Веб-разработка для начинающих: HTML и CSS' на stepik.org переделаный на React",
+  },
+  {
+    title: "Сайт-визитка",
+    img: project02,
+    imgBig: project02Big,
+    skills:
+      "React, React Hooks, Flexbox, темная/светлая тема, адаптивная верстка",
+    link: "https://yulencha.github.io/portfolio/",
+    gitHubLink: "https://github.com/Yulencha/portfolio",
+    description: "Pet-project для изучения React",
+  },
+  {
     title: "Рекламная страница",
     skills:
       "SCSS, БЭМ, JS, Flexbox, слайдеры (swiper slider), popUp, pixel perfect, адаптивная верстка по макету из Photoshop",
@@ -26,26 +47,6 @@ const projects = [
     link: "https://yulencha.github.io/cars_advertisement/",
     gitHubLink: "https://github.com/Yulencha/cars_advertisement",
     description: "Тестовое задание",
-  },
-  {
-    title: "Сайт-визитка",
-    img: project02,
-    imgBig: project02Big,
-    skills: "React, Flexbox, адаптивная верстка",
-    link: "https://yulencha.github.io/portfolio/",
-    gitHubLink: "https://github.com/Yulencha/portfolio",
-    description: "Pet-project для изучения React",
-  },
-  {
-    title: "Сайт ресторана",
-    img: project03,
-    imgBig: project03Big,
-    skills:
-      "Bootstrap, Flexbox, pixel perfect, адаптивная верстка, по макету из Figma",
-    link: "https://yulencha.github.io/Uber-Eats/",
-    gitHubLink: "https://github.com/Yulencha/Uber-Eats",
-    description:
-      "Учебный проект курса 'Веб-разработка для начинающих: HTML и CSS' на stepik.org",
   },
   {
     title: "Поиск по GitHub",

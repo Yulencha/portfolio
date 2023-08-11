@@ -28,8 +28,8 @@ const Home = () => {
             <li className="content-list__item">
               <h2 className="title-2">Навыки</h2>
               <p>
-                React, JavaScript, HTML, CSS, БЭМ, SCSS, BootStrap, Flexbox,
-                pixel perfect, адаптивная верстка, Rest API, Figma
+                React, React Hooks, JavaScript, HTML, CSS, БЭМ, SCSS, BootStrap,
+                Flexbox, pixel perfect, адаптивная верстка, Rest API, Figma
               </p>
             </li>
             <li className="content-list__item">
