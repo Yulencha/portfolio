@@ -16,7 +16,20 @@ import project05Big from "./../img/projects/05-big.png";
 import project06 from "./../img/projects/06.png";
 import project06Big from "./../img/projects/06-big.png";
 
+import project07 from "./../img/projects/07.png";
+import project07Big from "./../img/projects/07-big.png";
+
 const projects = [
+  {
+    title: "Сайт",
+    img: project07,
+    imgBig: project07Big,
+    skills:
+      "React, React Hooks, анимация, запрос в API, Flexbox, pixel perfect, адаптивная верстка по макету из Figma",
+    link: "https://yulencha.github.io/test_urban-doodle/",
+    gitHubLink: "https://github.com/Yulencha/test_urban-doodle",
+    description: "Тестовое задание для образовательной платформы",
+  },
   {
     title: "Агрегатор ресторанов",
     img: project03,
